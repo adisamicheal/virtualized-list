@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import './List.css'
 
 const List = (props: any) => {
 
@@ -37,7 +38,7 @@ const List = (props: any) => {
                     className="inner"
                     style={{ position: "relative", height: `300px`}}
                 >
-                   {items}
+                   {items as any}
                 </div>
             </div>
         </div>

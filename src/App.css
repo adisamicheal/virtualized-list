@@ -30,3 +30,12 @@
   padding: 20px;
   background: transparent;
 }
+.footer {
+  margin: 50px 0;
+}
+.footer  > button {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  background: transparent;
+}
