@@ -5,14 +5,14 @@ import { faker } from '@faker-js/faker';
 
 
 function App() {
-  const [count, setCount] = useState(1000);
+  const [count, setCount] = useState(100000);
   const [items, setItems] = useState([]);
 
   useEffect(() => {
     setItems(
       new Array(count)
         .fill(null)
-        .map((_, i) => ({ index: `Item ${i}`, description: `Item ${i} ${faker.random.word()}`, price: `Item ${i} ${faker.datatype.number(1000)}` }))
+        .map((_, i) => ({ index: `Item ${i}`, description: `Item ${i} ${faker.random.word()}`, price: `Item ${i} ${faker.datatype.number(100000)}` }))
     );
 
   }, [count]);
