@@ -21,8 +21,8 @@ function App() {
     <div className="App">
       <header className="heading">
         <div className="empty-container"></div>
-        <p>VIrtualized list</p>
-        <button onClick={() => {setCount(parseInt(count + 1)); console.log('new count', count);}}>Add new item</button>
+        <p>Virtualized list</p>
+        <button onClick={() => {setCount(parseInt(count + 1))}}>Add new item</button>
       </header>
       <div>
         <List numItems={items.length} itemHeight={40} windowHeight={400} renderItem={({ index, style }) => {
