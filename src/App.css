@@ -39,3 +39,9 @@
   padding: 10px 20px;
   background: transparent;
 }
+button:hover {
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  transition: all ease-in-out .5s;
+}

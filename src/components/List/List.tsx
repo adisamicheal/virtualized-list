@@ -33,10 +33,10 @@ const List = (props: any) => {
 
     return (
         <div className="page">
-            <div className="scroll" style={{ overflowY: "scroll" }} onScroll={onScroll}>
+            <div className="scroll" style={{ overflowY: "scroll", scrollBehavior: "smooth" }} onScroll={onScroll}>
                 <div
                     className="inner"
-                    style={{ position: "relative", height: `300px`}}
+                    style={{ position: "relative", height: "300px", scrollBehavior: 'smooth'}}
                 >
                    {items as any}
                 </div>
