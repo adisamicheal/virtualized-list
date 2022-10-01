@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+#oaks-audition
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A custom made virtualized list
+
+## Built With
+
+- React.js
+- Typescript
+- Git
+- Jest
+
+## Clone this project
+
+    $ git clone https://github.com/adisamicheal/virtualized-list.git
+    $ cd virtualized-list
+    
+## Configure app
 
 ## Available Scripts
 
